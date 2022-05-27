@@ -76,12 +76,15 @@ WSGI_APPLICATION = 'incomeexpenses.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'P@ssw0rd2o2o',
-        'HOST': 'localhost',
+        # 'NAME': 'postgres',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'P@ssw0rd2o2o',
+        # 'HOST': 'localhost',
+        'NAME': 'ddrairki6un2u9',
+        'USER': 'czcrvmytfjyugi',
+        'PASSWORD': '768df5f15ecf079b28f7d392e1c09525aff6260f3bdb981c5399efa3c292f3d3',
+        'HOST': 'ec2-3-211-221-185.compute-1.amazonaws.com',
     }
 }
 
